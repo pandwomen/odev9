@@ -8,50 +8,290 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <title>Linkedin</title>
   </head>
-  <body>
-   <div>
+  <body class="body">
+    <div class="ust bg-light">
+   <div class="row">
     <div class="container">
         
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
             <a class="navbar-brand" href="#">
-                <img src="ımage/logo.png" width="30" height="30" alt="">
-                       
-            <a class="navbar-brand" href="#"> <i class="fa-solid fa-house"> Ana Sayfa</i></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+                <img src="image/logo.png" width="40" height="40" alt="">
+              </a>
+              
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="ara" placeholder="Ara" aria-label="Ara">
+                  </form>
+           
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Ağım <span class="sr-only">(current)</span></a>
+                    
+                    <a class="nav-link ıcon" href="#">  <i class="fa-solid fa-house"></i> Ana Sayfa </a>
+                  
+                  </li>
+                <li class="nav-item active">
+                    
+                  <a class="nav-link ıcon" href="#">  <i class="fa-solid fa-user-group"></i> Ağım  </a>
+                
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">iş ilanları</a>
+                  <a class="nav-link" href="#"> <div class="ıcon"> <i class="fa-solid fa-briefcase"></i> İş İlanları </div></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Mesajlaşma</a>
+                  <a class="nav-link" href="#"> <div class="ıcon"> <i class="fa-solid fa-comment-dots"></i> Mesajlaşma </div></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Bildirimler</a>
+                  <a class="nav-link" href="#"><div class="ıcon"> <i class="fa-solid fa-bell"></i> Bildirimler</div></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Ben</a>
+                    <a class="nav-link" href="#"><div class="ıcon border-right"> <img src="https://picsum.photos/id/15/17/17" alt="" class="rounded-circle "> Ben </div></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">İş</a>
+                    <a class="nav-link" href="#"><div class="ıcon"> <i class="fa-solid fa-qrcode"></i> İş </div></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">İş ilan Yanıtı</a>
+                    <a class="nav-link" href="#"><div class="ıcon"> <i class="fa-solid fa-display"></i> iş İlanı Yayınla </div></a>
                   </li>
               </ul>
             </div>
+        
+      
           </nav>
-
+        </div>
+      </div>
     </div>
-   </div>
+  
+   
+   <div class="container mt-5 ">
+    <div class="row">
+        <div class="col-sm-3 ">
+        <div class="card">
+         <div class="res">
+          <img src="https://picsum.photos/id/15/253/50" alt="">
+          <div><img src="https://picsum.photos/id/15/60/60" alt="" class=" res1 rounded-circle"></div>
+         </div>
+         <div class="sol">
+      
+         </div>
+      
+         <div>
+          <h5 class="ml-5"> <a href="#" class="yaz">Ece Nur Şimşek </a></h5>
+          <p class="ml-4">Web Front-End Developer- Dijital Platformu </p>
+         </div> <hr>
+         <div class="mt-2 mb-2 ml-2" >
+          Profilinizi kimler görüntüledi <span class="text-primary ml-2"> 447</span>
+          Yayınınız için görüntülenme <span class="text-primary ml-2"> 150</span>
+         </div>
+         <div><hr>
+          <strong> <i class="fa-solid fa-bookmark ml-3 mb-3"></i> Öğelerim</strong>
+         </div>
+        </div>
+        <div class="card mt-3">
+          <h5>Sayfalarım</h5>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <img src="https://picsum.photos/id/65/50/50" alt="">
+          <h6>Kablosuz Beyin
+          Sayfa Bildirimleri </h6> 
+              <span class="badge badge-primary badge-pill bg-white text-primary">10</span>
+          </li>
+        </div>
+        <div class="card mt-3">
+          <div class="menu">
+         En Yeni<br> <br> # &nbsp; kodluyoruz<br> # &nbsp;front-end <br># &nbsp; html<br># &nbsp; css<br># &nbsp; bootstrap 
+        </div>
+        <div class="menu1">
+          <span class="badge badge-primary bg-white text-primary"> Gruplar</span> <br>
+          <span class="badge badge-primary bg-white text-primary"> Etkinlikler</span>
+          <i class="fa-solid fa-plus ml-5"></i>
+        </div>
+        
+          <div class="menu1">
+            <span class="badge badge-primary bg-white text-primary">Takip edilen hashtagler </span>
+            <p class="menu"># &nbsp; kodluyoruz<br> # &nbsp;front-end</p>
+          </div>
+        <div class="border border-top menu2"><strong> Daha fazla keşfet</strong> </div>
+        </div>
+    </div>
+     
+    <div class="col-sm-5">
+      <div class="card">
+        <div class="input-group mt-3 px-4">
+          <div class="input-group-prepend ">
+            <span class="input-group-text border" id="basic-addon1"> <i class="fa-solid fa-pen-to-square"></i></span>
+          </div>
+          <input type="text" class="form-control" placeholder="Bir gönderi başlat" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="px-3 mt-3 mb-3"> 
+          <span class="btn btn-light"><i class="fa-solid fa-image"></i> Fotoğraf</span> 
+          <span class="btn btn-light"><i class="fa-solid fa-video"></i> Video</span>  
+            <span class="btn btn-light"><i class="fa-solid fa-calendar-days"></i> Etkinlik</span> 
+              <span class="btn btn-light"><i class="fa-solid fa-file-pen"></i> Yazı yaz</span>
+        </div>
+
+      </div>
+      <hr>
+      <div class="card mt-2">
+      <div>
+        <img class=" logo1 rounded-circle ml-3 mt-2 src=" src="https://picsum.photos/id/70/200/300" alt="">
+        <span class="small ml-2"><strong> <a href="#" class="yaz"> David J.Malan</a></strong> </span>
+        <p class="ml-3">They have done great things!Tebrikler Kodluyoruz</p>
+        <img class=" ml-0 mr-0 mt-2 src=" src="https://picsum.photos/id/70/440/250" alt="">
+        <p class="ml-3 menu">
+          <i class="fa-solid fa-thumbs-up"></i> &nbsp;
+          <i class="fa-solid fa-hands"></i> &nbsp;
+          <i class="fa-brands fa-gratipay"></i> &nbsp;958
+        </p> <hr>
+        <div class="px-2 mt-2 mb-3"> 
+          <span class="btn btn-light"> <i class="fa-solid fa-thumbs-up"></i> Beğen</span> &nbsp; 
+          <span class="btn btn-light"> <i class="fa-solid fa-comment">   </i>Yorum Yap</span>&nbsp; 
+          <span class="btn btn-light"> <i class="fa-solid fa-share"></i>Paylaş</span>&nbsp;
+          <span class="btn btn-light"><i class="fa-solid fa-paper-plane"></i> Gönder</span>
+        </div>
+        
+
+      
+      </div>
+      </div>
+      <div class="card mt-2">
+        <div>
+          <img class=" logo1 rounded-circle ml-3 mt-2 src=" src="https://picsum.photos/id/30/200/300" alt="">
+          <span class="small ml-2"><strong> <a href="#" class="yaz">Ozan Halis İlter </a></strong> </span>
+          <p class="ml-3">Erhan Erkut hocamız ile birlikte YetGen'de harika şeyler yapmak için geliyoruz!</p>
+          <img class=" ml-0 mr-0 mt-2 src=" src="https://picsum.photos/id/80/440/250" alt="">
+          <p class="ml-3 menu">
+            <i class="fa-solid fa-thumbs-up"></i> &nbsp;
+            <i class="fa-solid fa-hands"></i> &nbsp;
+            <i class="fa-brands fa-gratipay"></i> &nbsp;210
+          </p> <hr>
+          <div class="px-2 mt-2 mb-3"> 
+            <span class="btn btn-light"> <i class="fa-solid fa-thumbs-up"></i> Beğen</span> &nbsp; 
+            <span class="btn btn-light"> <i class="fa-solid fa-comment">   </i>Yorum Yap</span>&nbsp; 
+            <span class="btn btn-light"> <i class="fa-solid fa-share"></i>Paylaş</span>&nbsp;
+            <span class="btn btn-light"><i class="fa-solid fa-paper-plane"></i> Gönder</span>
+          </div>
+
+        </div>
+        </div>
+        <div class="card mt-2">
+          <div>
+            <img class=" logo1 rounded-circle ml-3 mt-2 src=" src="https://picsum.photos/id/20/200/300" alt="">
+            <span class="small ml-2"><strong><a href="#" class="yaz">Ramazan Sancar</a></strong> </span>
+            <p class="ml-3">Cat Özel Hareket'a katılmak isteyenleri şöyle alalım</p>
+            <img class=" ml-0 mr-0 mt-2 src=" src="https://picsum.photos/id/90/440/250" alt="">
+            <p class="ml-3 menu">
+              <i class="fa-solid fa-thumbs-up"></i> &nbsp;
+              <i class="fa-solid fa-hands"></i> &nbsp;
+              <i class="fa-brands fa-gratipay"></i> &nbsp;254
+            </p> <hr>
+            <div class="px-2 mt-2 mb-3"> 
+              <span class="btn btn-light"> <i class="fa-solid fa-thumbs-up"></i> Beğen</span> &nbsp; 
+              <span class="btn btn-light"> <i class="fa-solid fa-comment">   </i>Yorum Yap</span>&nbsp; 
+              <span class="btn btn-light"> <i class="fa-solid fa-share"></i>Paylaş</span>&nbsp;
+              <span class="btn btn-light"><i class="fa-solid fa-paper-plane"></i> Gönder</span>
+            </div>
+            
+    
+          
+          </div>
+          </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <ul class="list-group">
+        <li class=" d-flex justify-content-between mt-3 ml-3 mb-3">
+          Akışınıza ekleyin
+          <span><i class="fa-solid fa-circle-info mr-3"></i></span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <img class="rounded-circle" src="https://picsum.photos/id/35/40/40" alt="">
+         Codecraft
+          <span class="badge badge-primary badge-pill bg-white text-primary border border-primary"> +Takip Et</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <img class="rounded-circle" src="https://picsum.photos/id/25/40/40" alt="">
+          Podfresh
+          <span class="badge badge-primary badge-pill bg-white text-primary border border-primary">+Takip Et</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <img class="rounded-circle" src="https://picsum.photos/id/15/40/40" alt="">
+          Navlungo
+          <span class="badge badge-primary badge-pill bg-white text-primary border border-primary">+Takip Et</span>
+        </li>
+      </ul>
+    </div>
+    <div class="card mt-3">
+      <ol class="list-group">
+        <li class=" d-flex justify-content-between mt-2 ml-3 mb-3">
+          Bugünün en çok izlenen eğitimleri
+          <span><i class="fa-solid fa-circle-info mr-3"></i></span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center sag"><h6>1.The Six Morning Habits of High Perf...</h6>
+       <span class="menu">Pete Mocakatais How to be...</span> 
+
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center sag"><h6>2.Onconscious Blas</h6>
+          <p class="menu">Stacey Gordon</p>
+
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center sag"><h6>3.Critical Thinking for Better Judgme...</h6>
+          <p class="menu">Becki Saltzman</p>
+
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center"><a href="#" class="text-primary"><h6>Linkedin Learning'de daha fazlasını göster</h6></a>
+          
+
+        </li>
+
+        </ol>
+    </div>
+    <div class="card menu3">
+     <p> <a href="#" class="text-muted"> Hakkında</a> &nbsp; &nbsp; <a href="#" class="text-muted">Erişilebilirlik</a> &nbsp;  <a href="#" class="text-muted"> Yardım Merkezi</a> </p> 
+     <p> <a href="#" class="text-muted">Gizlilik ve Koşullar &nbsp; &nbsp;</a> <a href="#" class="text-muted">Reklam Tercihleri</a> </p>
+     <p> <a href="#" class="text-muted">Reklam</a> </p>
+     <p> <img src="image/logo2.png" class="logo2">Linkedin Corporation @ 2021</p>
+    </div>
+</div><!--sol menu col end-->
+ 
+    
+    </div><!--row end-->
+    </div><!--container end-->
+    
+      
+      
+        
+
+
+
+
+    
+    
+  
+      
+      
+
+
+
+
+
+
+
+        
+        
+      
+     
+   
+
+   
+
+    
+       
+  
+ 
 
 
 
